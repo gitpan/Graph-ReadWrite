@@ -34,11 +34,12 @@
          "requires" : {
             "Graph" : "0.5",
             "IO::File" : 0,
+            "Parse::Yapp::Driver" : 0,
             "XML::Parser" : 0,
             "XML::Writer" : 0
          }
       }
    },
    "release_status" : "stable",
-   "version" : "2.01"
+   "version" : "2.02"
 }

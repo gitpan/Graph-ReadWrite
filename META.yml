@@ -20,6 +20,7 @@ no_index:
 requires:
   Graph: 0.5
   IO::File: 0
+  Parse::Yapp::Driver: 0
   XML::Parser: 0
   XML::Writer: 0
-version: 2.01
+version: 2.02
