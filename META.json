@@ -1,7 +1,7 @@
 {
-   "abstract" : "unknown",
+   "abstract" : "Classes for reading and writing directed graphs",
    "author" : [
-      "unknown"
+      "Neil Bowers <neil@bowers.com>"
    ],
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150",
@@ -32,14 +32,22 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : 0,
+            "File::Compare" : 0,
             "Graph" : "0.5",
             "IO::File" : 0,
             "Parse::Yapp::Driver" : 0,
             "XML::Parser" : 0,
-            "XML::Writer" : 0
+            "XML::Writer" : 0,
+            "parent" : 0
          }
       }
    },
    "release_status" : "stable",
-   "version" : "2.02"
+   "resources" : {
+      "repository" : {
+         "url" : "https://github.com/neilbowers/Graph-ReadWrite"
+      }
+   },
+   "version" : "2.03"
 }

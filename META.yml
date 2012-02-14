@@ -1,7 +1,7 @@
 ---
-abstract: unknown
+abstract: 'Classes for reading and writing directed graphs'
 author:
-  - unknown
+  - 'Neil Bowers <neil@bowers.com>'
 build_requires:
   ExtUtils::MakeMaker: 0
 configure_requires:
@@ -18,9 +18,14 @@ no_index:
     - t
     - inc
 requires:
+  Carp: 0
+  File::Compare: 0
   Graph: 0.5
   IO::File: 0
   Parse::Yapp::Driver: 0
   XML::Parser: 0
   XML::Writer: 0
-version: 2.02
+  parent: 0
+resources:
+  repository: https://github.com/neilbowers/Graph-ReadWrite
+version: 2.03
