@@ -4,9 +4,9 @@
       "Neil Bowers <neil@bowers.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "ExtUtils::MakeMaker version 6.6905, CPAN::Meta::Converter version 2.131560",
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -22,24 +22,24 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "Carp" : 0,
-            "File::Compare" : 0,
+            "Carp" : "0",
+            "File::Compare" : "0",
             "Graph" : "0.5",
-            "IO::File" : 0,
-            "Parse::Yapp::Driver" : 0,
-            "XML::Parser" : 0,
-            "XML::Writer" : 0,
-            "parent" : 0
+            "IO::File" : "0",
+            "Parse::Yapp::Driver" : "0",
+            "XML::Parser" : "0",
+            "XML::Writer" : "0",
+            "parent" : "0"
          }
       }
    },
@@ -49,5 +49,5 @@
          "url" : "https://github.com/neilbowers/Graph-ReadWrite"
       }
    },
-   "version" : "2.03"
+   "version" : "2.04"
 }
